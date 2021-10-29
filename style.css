@@ -21,9 +21,11 @@
 		display: none;
 	}
 	.mobileVersion{
-		display: flex;
+		display: grid;
 		background-image: url("https://kirilcube.github.io/BGMobile.jpg");
 		justify-content: center;
+		background-size: cover;
+		height: 100vh;
 	}
 	
 	.animationM{
