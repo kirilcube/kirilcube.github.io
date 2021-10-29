@@ -1,0 +1,38 @@
+.imgContainer{
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.bg_image{
+	height: 100vh
+}
+
+.animation{
+	position: absolute;
+}
+
+.mobileVersion{
+	display: none;
+}
+
+@media only screen and (max-device-width: 1000px) {
+	.imgContainer{
+		display: none;
+	}
+	.mobileVersion{
+		display: flex;
+		background-image: url("https://kirilcube.github.io/BGMobile.jpg");
+		justify-content: center;
+	}
+	
+	.animationM{
+				margin-top: 15vh;
+	}
+}
+
+@media only screen and (max-device-width: 512px) {
+	.animationM{
+		width: 300px
+	}	
+}
